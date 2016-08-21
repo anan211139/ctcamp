@@ -1,0 +1,13 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase open
+[debug] CLI Version:  3.0.7
+[debug] Platform:     darwin
+[debug] Node Version: v4.5.0
+[debug] Time:         Sun Aug 21 2016 15:42:59 GMT+0700 (ICT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/parichaya-9e97c 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/parichaya-9e97c/tokens 
+[debug] <<< HTTP RESPONSE 200
