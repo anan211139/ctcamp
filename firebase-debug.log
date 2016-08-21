@@ -3,7 +3,7 @@
 [debug] CLI Version:  3.0.7
 [debug] Platform:     darwin
 [debug] Node Version: v4.5.0
-[debug] Time:         Sun Aug 21 2016 15:42:59 GMT+0700 (ICT)
+[debug] Time:         Sun Aug 21 2016 15:46:06 GMT+0700 (ICT)
 [debug] ----------------------------------------------------------------------
 [debug] 
 [debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
