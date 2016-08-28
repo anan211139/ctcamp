@@ -1,0 +1,41 @@
+body{
+    background-color: #efefef;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+h1{
+    color: #ff0000;
+}
+h3{
+    color: #0000ff;
+}
+#lab{
+    color: #00ff00;
+}
+.menu{
+    
+    margin  : 25px;
+    color: dimgray;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    
+}
+
+.navigation-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+
+    display: flex;
+    flex-flow: row nowrap; /* ไม่ขึ้นแถวใหม่  */
+    align-items: center;
+    justify-content: flex-end;/* เริ่มต้นจากจุดสุดท้าย  */
+
+    height: 50px;
+
+    background-color : white;
+    
+}

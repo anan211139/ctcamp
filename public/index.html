@@ -1,40 +1,76 @@
 <html>
     <head>
-        <meta charset="utf-8" /><!--ไม่ต้องมี tag ปิด แค่บอกว่าเป็นอะไร -->
+        <meta charset="utf-8" />
+        <title>Creative Technology Camp</title>
+        <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css" />
         
     </head>
     <body>
-        <h1>Parichaya Bumrungsena (An)</h1>
-        <h2>ปริชญา บำรุงเสนา <strong>(อัน)</strong></h2>
-        <p>เอก <strong>ดิจิทัล</strong></p>
-        <ul><!-- จุด -->
-            <li>เอก ดิจิทัล</li>
-            <li>เอก เกม</li>
-            <li>เอก แพทย์</li>
-        </ul>
-        <ol><!-- ลำดับ -->
-            <li>.....</li>
-            <li>.....</li>
-            <li>.....</li>
-        </ol>
-        <h1>โครงการร่วมบริหารหลักสูตร</h1>
+        <nav class="navigation-bar"><!--  ใส่ layer --->
+            <a class="menu" href="#lab">สาขาวิชาที่เปิด</a>
+            <a class="menu" href="#descs">รายละเอียด</a>
+            <a class="menu" href="#time">กำหนดการ</a>
+            <a class="menu" href="#project">ผลงาน</a>
+            <a class="menu" href="#contact">ติดต่อ</a>
+        </nav>
+        <header>
+            <section>
+                <h1>Creative Technology Camp</h1>
+                <p>เป็นค่ายสำหรับนักศึกษาที่ต้องการหาความรู้เพิ่มเติม<br />จัดโดยนักศึกษาภาควิชา<strong>เทคโนโลยีมีเดีย</strong></p>
+            </section>
+            <img id="pic1" width="250" src = "images/logo.png " >
+        </header>    
         <ol>
-            <li>เทคโนโลยีมีเดีย
-                <ol>
-                    <li>ดิจิทอล มีเดีย</li>
-                    <li>พัฒนาเกม</li>
-                    <li>ชีวการแพทย์</li>
-                </ol>
-            </li>
-            <li>มีเดียอาร์ต</li>
-            <li>มีเดียการแพทย์ และวิทยาศาสตร์</li>    
+            <li>เพื่อให้นักศึกษาได้เรียนรู้นอกเหนือจากในห้องเรียน</li>
+            <li>เพื่อเตรียมความพร้อมให้นักศึกษาก่อนเข้าสู่ระบบทำงาน</li>
         </ol>
-        <dl>
-            <dt>ค่าบำรุงการศึกษา</dt>
-            <dd>12,000 บาท</dd>
-            <dt>ค่าหน่วยกิต</dt>
-            <dd>1,500 บาท/หน่วยกิต</dd>
-        </dl>
+        <h2 id="lab">สาขาที่เปิด</h2>
+        <ol>
+            <li><a href="labs/game.html">Game</a></li>
+                <img width="200" src="images/Unity-Logo.png">
+            
+            <li><a href="labs/maya.html">Maya</a></li>
+                <img width="200" src="images/Maya-01.png">
+            <li><a href="labs/web.html">Wab</a></li>
+                <img width="200" src="images/flat-html5.png">
+        </ol>
+        <h3 id="descs">รายละเอียดเบื้องต้น</h3>
+        <ul>
+            <li>เป็น<strong>นักศึกษา</strong>ในสาขาวิชา<strong>เทคโนโลยีมีเดีย</strong></li>
+            <li>เรียนวัน<strong>เสาร์และวันจันทร์</strong></li>
+            <li>เรียนที่ <strong>มจธ.วิทยาเขตบางขุนเทียน</strong></li>
+        </ul>
+        <h3 id="time">กำหนดการ</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>วัน</th>
+                    <th>การเรียน</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>20 สิงหาคม 2559</td>
+                    <td>เริ่มโครงการ</td>
+                </tr>
+                <tr>
+                    <td>20 พฤศจิกายน 2559</td>
+                    <td>สิ้นสุดโครงการ</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="project">ผลงานนักศึกษา</h3>
+        <ul>
+            <li>Intro WWW</li>
+            <li>Git</li>
+            <li>Html Text Tag</li>
+            <li>Html List Tag</li>
+            <li>Html Link Tag</li>
+        </ul>
+        <h3 id="contact">ช่องทางการติดต่อ</h3>
+        <a href="https://www.facebook.com/creativetechnologycamp/">Facebook Page</a><br />
+        <a href="https://www.facebook.com/groups/491991684284121/">Facebook Group</a>
     </body>
-</html>
 
+</html>
