@@ -1,48 +1,53 @@
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Creative Technology Camp</title>
-        <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
-        <link rel="stylesheet" href="css/app.css" />
-        
-    </head>
-    <body>
-        <nav class="navigation-bar"><!--  ใส่ layer --->
-            <a class="menu" href="#lab">สาขาวิชาที่เปิด</a>
-            <a class="menu" href="#descs">รายละเอียด</a>
-            <a class="menu" href="#time">กำหนดการ</a>
-            <a class="menu" href="#project">ผลงาน</a>
-            <a class="menu" href="#contact">ติดต่อ</a>
-        </nav>
-        <header>
-            <section>
-                <h1>Creative Technology Camp</h1>
-                <p>เป็นค่ายสำหรับนักศึกษาที่ต้องการหาความรู้เพิ่มเติม<br />จัดโดยนักศึกษาภาควิชา<strong>เทคโนโลยีมีเดีย</strong></p>
-            </section>
-            <img id="pic1" width="250" src = "images/logo.png " >
-        </header>    
-        <ol>
-            <li>เพื่อให้นักศึกษาได้เรียนรู้นอกเหนือจากในห้องเรียน</li>
-            <li>เพื่อเตรียมความพร้อมให้นักศึกษาก่อนเข้าสู่ระบบทำงาน</li>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Creative Technology Camp</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css" />
+
+</head>
+
+<body>
+    <nav class="navigation-bar">
+        <!--  ใส่ layer --->
+        <a class="menu" href="#lab">สาขาวิชาที่เปิด</a>
+        <a class="menu" href="#descs">รายละเอียด</a>
+        <a class="menu" href="#time">กำหนดการ</a>
+        <a class="menu" href="#project">ผลงาน</a>
+        <a class="menu" href="#contact">ติดต่อ</a>
+    </nav>
+    <header class="header">
+        <section class="texts">
+            <h1 class="title">Creative Technology Camp</h1>
+            <p class="description">เป็นค่ายสำหรับนักศึกษาที่ต้องการหาความรู้เพิ่มเติม<br />จัดโดยนักศึกษาภาควิชา<strong>เทคโนโลยีมีเดีย</strong></p>
+        </section>
+        <img class="image" id="pic1" src="images/logo.png ">
+    </header>
+    <ol class="objectives">
+        <li class="item">เพื่อให้นักศึกษาได้เรียนรู้นอกเหนือจากในห้องเรียน</li>
+        <li class="item">เพื่อเตรียมความพร้อมให้นักศึกษาก่อนเข้าสู่ระบบทำงาน</li>
+    </ol>
+    <section class="white-section">
+        <h2 class="title" id="lab">สาขาที่เปิด</h2>
+        <ol class="lab-lists">
+            <li class="lab"><img class="image" src="images/Unity-Logo.png">
+                <a class="link" href="labs/game.html">Game</a></li>
+            <li class="lab"><img class="image" src="images/Maya-01.png">
+                <a class="link" href="labs/maya.html">Maya</a></li>
+            <li class="lab"><img class="image" src="images/flat-html5.png">
+                <a class="link" href="labs/web.html">Wab</a></li>
         </ol>
-        <h2 id="lab">สาขาที่เปิด</h2>
-        <ol>
-            <li><a href="labs/game.html">Game</a></li>
-                <img width="200" src="images/Unity-Logo.png">
-            
-            <li><a href="labs/maya.html">Maya</a></li>
-                <img width="200" src="images/Maya-01.png">
-            <li><a href="labs/web.html">Wab</a></li>
-                <img width="200" src="images/flat-html5.png">
-        </ol>
-        <h3 id="descs">รายละเอียดเบื้องต้น</h3>
-        <ul>
-            <li>เป็น<strong>นักศึกษา</strong>ในสาขาวิชา<strong>เทคโนโลยีมีเดีย</strong></li>
-            <li>เรียนวัน<strong>เสาร์และวันจันทร์</strong></li>
-            <li>เรียนที่ <strong>มจธ.วิทยาเขตบางขุนเทียน</strong></li>
-        </ul>
-        <h3 id="time">กำหนดการ</h3>
-        <table>
+    </section>
+    <h3 class="title" id="descs">รายละเอียดเบื้องต้น</h3>
+    <ul class="objectives">
+        <li class="item">เป็น<strong>นักศึกษา</strong>ในสาขาวิชา<strong>เทคโนโลยีมีเดีย</strong></li>
+        <li class="item">เรียนวัน<strong>เสาร์และวันจันทร์</strong></li>
+        <li class="item">เรียนที่ <strong>มจธ.วิทยาเขตบางขุนเทียน</strong></li>
+    </ul>
+    <section class="white-section">
+        <h3 class="title" id="time">กำหนดการ</h3>
+        <table class="time-table">
             <thead>
                 <tr>
                     <th>วัน</th>
@@ -60,17 +65,24 @@
                 </tr>
             </tbody>
         </table>
-        <h3 id="project">ผลงานนักศึกษา</h3>
-        <ul>
+    </section>
+    <h3 class="title" id="project">ผลงานนักศึกษา</h3>
+    <section class="objectives">
+        <ul class="item">
             <li>Intro WWW</li>
             <li>Git</li>
             <li>Html Text Tag</li>
             <li>Html List Tag</li>
             <li>Html Link Tag</li>
         </ul>
-        <h3 id="contact">ช่องทางการติดต่อ</h3>
-        <a href="https://www.facebook.com/creativetechnologycamp/">Facebook Page</a><br />
-        <a href="https://www.facebook.com/groups/491991684284121/">Facebook Group</a>
-    </body>
+    </section>
+    <section class="white-section">
+        <ul class="objectives">
+            <h3 class="title" id="contact">ช่องทางการติดต่อ</h3>
+            <a class="menu" href="https://www.facebook.com/creativetechnologycamp/">Facebook Page</a><br />
+            <a class="menu" href="https://www.facebook.com/groups/491991684284121/">Facebook Group</a>
+        </ul>
+    </section>
+</body>
 
 </html>
