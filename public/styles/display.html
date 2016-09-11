@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Display CSS</title>
+</head>
+
+<body>
+    <a style="display:inlineiblock;" href="#">Link</a>
+    <a style="display:inlineiblock;" href="#">Link2</a>
+    <a style="display:inlineiblock;" href="#">Link3</a>
+    <h1 style="display:block;">Heading1</h1>
+    <div style="display:block">Tag div</div>
+    <span style="display:inline">Tag span</span>
+    <!-- Display แบบ block เท่านั้นถึงจะเซ็ตความกว้างและความสูงได้ -->
+
+    <span style="
+    display:inline;
+    width:500px;
+    height:500px;
+    background-color:red;">กว้าง 500 สูง 500 bg- red</span>
+
+    <span style="
+    display:inline-block;
+    width:500px;
+    height:500px;
+    background-color:red;">กว้าง 500 สูง 500 bg- red</span>
+
+    <ul>
+        <li style="display:inline">menu1</li>
+        <li style="display:inline">menu2</li>
+        <li style="display:inline">menu3</li>
+
+    </ul>
+
+    <ul style="display:none;">
+        <li style="display:inline">menu1</li>
+        <li style="display:inline">menu2</li>
+        <li style="display:inline">menu3</li>
+
+    </ul>
+
+    <div style="display:flex;
+    flex-direction:row;
+    ">
+        <h1>Heading1</h1>
+        <h1>Heading2</h1>
+    </div>
+
+    <div style="display:flex;
+    flex-direction:column;
+    ">
+        <h1>Heading1</h1>
+        <h1>Heading2</h1>
+    </div>
+
+    <div style="display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    ">
+        <h1>Heading1</h1>
+        <h1>Heading2</h1>
+    </div>
+
+    <div style="display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    ">
+        <h1>Heading1</h1>
+        <h1>Heading2</h1>
+    </div>
+    <div style="display:flex;
+    align-items: center;
+    margin-right:5px;">
+        <img src="https://scontent.fbkk8-1.fna.fbcdn.net/v/t1.0-1/p80x80/1499587_601418096596492_720106832_n.jpg?oh=aa70a727a922954b1f5b09d16a942357&oe=583C7C77">
+        <div>
+            <div style="font-family:sans-serif;
+    color:blue;
+    font-weight:bold;
+    ">Parichaya Bumrungsena
+                <span style="color:grey;
+        font-weight:300;">is live now.
+        </span>
+            </div>
+            <div style="color:dimgrey;
+    font-family:sans-serif;">1 hr.</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
